@@ -85,13 +85,21 @@
     margin-right: 30px;
 }
 .info_img{
-    width: 2000px;
-    margin-right: -350px;
-    margin-top: -450px;
+    width: 100%;
+    margin-top: -150px;
 }
 .info_img img{
     margin-top: 80px;
-    position: fixed;
+    position: static;
     width: 700px;
     margin-bottom: -90px;
+}
+/* service section */
+.service_container{
+    background: #F6F6F6;
+    height: 500px;
+}
+ .headings{
+    text-align: center;
+    line-height: 30px;
 }
