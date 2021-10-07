@@ -12,6 +12,8 @@
     align-items: center;
     box-shadow: 0px 0px 5px 0px;
     height: 65px;
+    position: fixed;
+    width: 100%;
 }
 .header_container .logo{
     display: flex;
@@ -97,10 +99,25 @@
 /* service section */
 .service_container{
     background: #F6F6F6;
-    height: 500px;
+    height: 400px;
     padding: 30px;
 }
  .headings{
     text-align: center;
     line-height: 30px;
+}
+.service_itemcontainer{
+    display: flex;
+    text-align: center;
+}
+.service_item{
+    margin-top: 30px;
+}
+.service_item img{
+    height: 70px;
+    width: 60px;
+    background: #EE5B2B;
+    padding: 8px 0;
+    border-radius: 5px;
+    border: 2px solid white;
 }
