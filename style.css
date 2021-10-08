@@ -12,7 +12,7 @@
     align-items: center;
     box-shadow: 0px 0px 5px 0px;
     height: 65px;
-    position: fixed;
+    /* position: fixed; */
     width: 100%;
 }
 .header_container .logo{
@@ -65,7 +65,7 @@
 .info_container{
     display: flex;
     flex-direction: column;
-    margin-top: 80px;
+    margin-top: 100px;
     margin-left: 40px;
 }
 .info{
@@ -120,4 +120,12 @@
     padding: 8px 0;
     border-radius: 5px;
     border: 2px solid white;
+}
+.rear_container{
+    height: 400px;
+    display: flex;
+    justify-content: space-between;
+}
+.rear_container img{
+    margin-left: -150px;
 }
