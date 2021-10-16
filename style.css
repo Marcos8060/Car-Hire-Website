@@ -131,7 +131,8 @@
     border: 2px solid white;
 }
 .rear_container{
-    height: 400px;
+    height: 500px;
+    padding-top: 10px;
     display: flex;
     justify-content: space-between;
 }
@@ -143,6 +144,10 @@
 }
 .rear_container .rear_info{
     margin-right: 40px;
+}
+.rear_info li::marker{
+    color: #EE5B2B;
+    font-size: 50px;
 }
 .img_box{
     background-image: url(./Images/Img7.png);
